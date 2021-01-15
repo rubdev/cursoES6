@@ -1,0 +1,19 @@
+{
+  "name": "cursoes6",
+  "version": "1.0.0",
+  "description": "Curso sobre ES6+",
+  "main": "/cursoES6/src/es6/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubdev/cursoES6.git"
+  },
+  "author": "Rubén Segura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rubdev/cursoES6/issues"
+  },
+  "homepage": "https://github.com/rubdev/cursoES6#readme"
+}
