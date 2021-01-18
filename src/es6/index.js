@@ -30,10 +30,28 @@ console.log(frase2);
 /***** LET y CONST *****/
 
 /***** Multilínea *****/
+// Antes
+var fraseEpica = "Esta es una frase epica \n"
++ "otra frase epica";
+console.log(fraseEpica);
+// ES6
+let fraseEpicaES6 = `Esta es una frase epica 
+multilinea en ES6
+`;
+console.log(fraseEpicaES6);
 
 /***** Spread Operator *****/
 
 /***** Desestructuración *****/
+let persona = {
+    nombre: 'Rubén',
+    edad: 25,
+    pais: 'ES'
+};
+let {nombre, edad, pais} = persona;
+console.log(nombre, edad, pais);
+console.log(nombre);
+console.log(nombre, pais);
 
 /***** Arrow functions *****/
 
