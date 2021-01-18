@@ -2,7 +2,7 @@
  ****** Curso ES6+ ******
  ***********************/
 
-// PARÁMETROS POR DEFECTO 
+/***** PARÁMETROS POR DEFECTO *****/
 // Antes
 function nuevaFunc(nombre, edad, pais) {
     var name = name || 'Rubén';
@@ -17,7 +17,7 @@ function nuevaFunc2(nombre = 'Rubén', edad = 25, pais = 'ES') {
 nuevaFunc2();
 nuevaFunc2('Goku', 283, 'JP');
 
-// Template literal
+/*****  Template literal *****/
 let hola = 'Hola';
 let mundo = 'mundo';
 // Antes
@@ -26,3 +26,23 @@ console.log(frase);
 // ES6
 let frase2 = `${hola} ${mundo}`;
 console.log(frase2);
+
+/***** LET y CONST *****/
+
+/***** Multilínea *****/
+
+/***** Spread Operator *****/
+
+/***** Desestructuración *****/
+
+/***** Arrow functions *****/
+
+/***** Promesas *****/
+
+/***** Parámetros en objetos *****/
+
+/***** Clases *****/
+
+/***** Módulos *****/
+
+/***** Generadores *****/
