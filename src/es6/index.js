@@ -110,8 +110,26 @@ console.log(coche);
 // ES6
 let coche2 = {marca, modelo}   
 console.log(coche2);
+
 /***** Clases *****/
+class calculadora {
+    constructor() {
+        // Aquí se declaran las variables del scope global de la clase
+        this.valorA = 0;
+        this.valorB = 0;
+    }
+    suma(valorA, valorB) {
+        this.valorA = valorA;
+        this.valorB = valorB;
+        return this.valorA + this.valorB;
+    }
+}
+const calc = new calculadora();
+console.log(calc.suma(2,2));
 
 /***** Módulos *****/
-
-/***** Generadores *****/
+// Nota: se ha creado un módulo llamado modulo.js
+//       ahora se trata de importarlo y utlizar su contenido
+import { saludar } from './modulo'
+let valorSaludo = saludar();
+console.log(valorSaludo);
